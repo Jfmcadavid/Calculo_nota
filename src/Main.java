@@ -1,5 +1,5 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         /*desarollar un sistema de notas para un estudiante que desea saber su nota final de cada materia*/
@@ -24,5 +24,26 @@ public class Main {
             - Informacion general del estudiante
             - nombre, documento, nota materia
          */
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingrese el nombre del estudiante: ");
+        String nombreEstudiante = leer.nextLine();
+        System.out.println("Ingrese el documento del estudiante: ");
+        String documentoEstudiante = leer.nextLine();
+
+        /*Condicional multiple o sentencia switch*/
+        System.out.println("Elija el programa que se encuentra cursando: \n1.Desarrollo de Software \n2.Diseño Gráfico \n3.Cocina");
+        String Programa = leer.nextLine();
+        switch (Programa){
+            case "1":
+                System.out.println("Programa de desarrollo de Software");
+                break;
+            case"2":
+                System.out.println("Programa de Diseño grafico");
+                break;
+            case"3":
+                System.out.println("Programa de cocina");
+                break;
+        }
+
     }
 }
