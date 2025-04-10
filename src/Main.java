@@ -36,6 +36,19 @@ public class Main {
         switch (Programa){
             case "1":
                 System.out.println("Programa de desarrollo de Software");
+                System.out.println("Seleccione la materia a ingresar: \n1.Lógica de Programación \n2.Introducción a la programación \n3.Metologías ágiles");
+                String Materia= leer.nextLine();
+                        switch (Materia){
+                            case"1":
+                                System.out.println("Nota lógica de Programación");
+                                break;
+                            case"2":
+                                System.out.println("Nota Introducción a la Programación");
+                                break;
+                            case"3":
+                                System.out.println("Nota Metodologías ágiles");
+                                break;
+                        }
                 break;
             case"2":
                 System.out.println("Programa de Diseño grafico");
