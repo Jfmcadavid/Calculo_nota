@@ -19,6 +19,10 @@ public class Main {
             - Si la nota esta entre 0 y 2.0 el estudiante pierde sin opcion a plan de mejoramiento
             - Si la nota esta entre 2.1 y 2.9 el estudiante tendra la opcion de plan de mejoramiento calificando con maxima calificacion 3.0
             - Si la nota es igual o superior a 3.0 esta sera la nota definitiva de la materia
+
+        Los datos de salida comprenden:
+            - Informacion general del estudiante
+            - nombre, documento, nota materia
          */
     }
 }
